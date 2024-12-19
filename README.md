@@ -12,18 +12,18 @@
 ## 檔案結構
 
 ```
-color-picker-extension
-├── src
-│   ├── background.js       // 背景邏輯
-│   ├── content.js          // 網頁內容腳本
-│   ├── popup
-│   │   ├── popup.html      // 彈出介面
-│   │   ├── popup.js        // 彈出介面的邏輯
-│   │   └── popup.css       // 彈出介面的樣式
-│   └── manifest.json       // 擴展配置檔
-├── assets
-│   └── icon.png            // 擴展圖示
-└── README.md               // 專案說明
+color-picker-extension/
+├── src/
+│   ├── background.js
+│   ├── content.js
+│   ├── popup/
+│   │   ├── popup.html
+│   │   ├── popup.js
+│   │   └── popup.css
+│   └── manifest.json
+├── assets/
+│   └── icon.png
+└── README.md
 ```
 
 ## 安裝
