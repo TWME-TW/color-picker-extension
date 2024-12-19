@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Color Picker</title>
+    <style>
+        body {
+            width: 300px;
+            padding: 10px;
+        }
+        .block-item {
+            display: flex;
+            align-items: center;
+            margin: 10px 0;
+            padding: 5px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        .block-item img {
+            margin-right: 10px;
+        }
+        /* 添加一些基本樣式 */
+        #resultContainer div {
+            margin: 5px 0;
+        }
+        .button-group {
+            display: flex;
+            gap: 10px;
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <input type="color" id="colorPicker">
+    <div class="button-group">
+        <button id="pickFromScreen">Pick from Screen</button>
+        <button id="getBlocksButton">Get Closest Blocks</button>
+    </div>
+    <div id="resultContainer"></div>
+    <script src="popup.js"></script>
+</body>
+</html>
